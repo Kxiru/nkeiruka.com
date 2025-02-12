@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className={darkMode ? "dark" : ""}>
-      <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
+      <main className=" bg-[#e0f2f1] px-10 md:px-20 lg:px-40  dark:bg-[#0f1b1b]">
         <section className="min-h-screen">
           <NavBar darkMode={darkMode} setDarkModeOnClick={setDarkModeOnClick} />
           <HeroHeader />
